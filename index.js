@@ -25,7 +25,7 @@ const demo = async () => {
   status('');
 
   // Make a prediction through the locally hosted cat.jpg.
-  const catElement = document.getElementById('Z');
+  const catElement = document.getElementById('cat');
   if (catElement.complete && catElement.naturalHeight !== 0) {
     predict(catElement);
     catElement.style.display = '';
